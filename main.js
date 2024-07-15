@@ -32,9 +32,14 @@ function checkAnswer(color)
     {
         if(userPattern.length==correctPattern.length)
         {
+            setTimeout(function()
+        {
             numClick=-1;
             userPattern=[];
             nextSequence();
+
+        },1000);
+         
            
         }
     }
